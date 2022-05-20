@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+}
+
+header{
+	background-color: rgba(0, 0, 0, 0.8);
+	margin-top: 0px;
+	height: 95px;
+}
+h1{
+	margin-top: 0px;
+	padding: 10px;
+	color: white;
+}
+
+.content{
+	height: auto;
+	padding: 5px;
+	padding-top: 10px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+th{
+	background-color: rgba(0, 0, 0, 0.9);
+	color: white;
+
+}
+td{
+	background-color: rgba(255, 255, 255, 1);
+
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding: 1px 50px;
+	height: auto;
+	text-align: right;
+}

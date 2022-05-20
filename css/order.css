@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#reset{
+	background-color: #ff0c0c;
+	border: 1px solid #ff0c0c;
+	padding: 2px;
+	width: 60px;
+	margin-bottom: 10px;
+}
+#reset:hover{
+	background-color: #bd0808;
+	border: 1px solid #bd0808;
+	transition: 1s;
+}
+.x1{
+	background-color: #ff0c0c;
+	border: 1px solid #ff0c0c;
+	color: white;
+}
+.x a{
+	text-decoration: none;
+	color: white;
+}
+.x{
+	background-color: #ff0c0c;
+	border: 1px solid #ff0c0c;
+	width: 20px;
+	text-align: center;
+}
+.x:hover{
+	background-color: #bd0808;
+	border: 1px solid #bd0808;
+	transition: 1s;
+}

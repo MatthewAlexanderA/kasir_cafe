@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.bar{
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+.bar a{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.bar a:hover{
+	color: #4caf50;
+	transition: 0.5s;
+}
+
+.home, .edit-menu, .history, .regis, .logout, .order img{
+	height: 0px;
+	width: 0px;
+}
+
+@media screen and (max-width: 780px) /*ukuran tab*/
+{
+	.bar a{
+		font-size: 0px;
+	}
+}
+
+@media screen and (max-width: 480px) /*ukuran hp*/
+{
+	.bar a{
+		font-size: 0px;
+	}
+
+	.home, .edit-menu, .history, .regis, .logout, .order img{
+		height: 8%;
+		width: 8%;
+		padding: 1px;
+	}
+}
