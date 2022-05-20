@@ -1,2 +1,1 @@
-username : admin
-password: 123
+database name: db_projek
